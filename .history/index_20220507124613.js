@@ -17,9 +17,7 @@ const client = new MongoClient(uri, {
 app.get("/", (req, res) => {
   res.send("server is running");
 });
-app.get("/rubama", (req, res) => {
-  res.send("I love you rubama");
-});
+app.get("/r");
 app.listen(port, () => {
   console.log("Listening to port", port);
 });

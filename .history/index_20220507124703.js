@@ -18,7 +18,8 @@ app.get("/", (req, res) => {
   res.send("server is running");
 });
 app.get("/rubama", (req, res) => {
-  res.send("I love you rubama");
+  r;
+  e;
 });
 app.listen(port, () => {
   console.log("Listening to port", port);
