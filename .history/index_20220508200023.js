@@ -115,7 +115,7 @@ async function run() {
     });
 
     // PRODUCT ITEM SINGLE DELETE
-    app.delete("/Warehouse-item/:id", async (req, res) => {
+    app.delete("/product/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: ObjectId(id) };
       const result = await inventoryCollection.deleteOne(query);
